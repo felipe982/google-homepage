@@ -1,0 +1,10 @@
+.menu {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.fotoPerfil {
+  border-radius: 50%;
+  width: 2.5em;
+}
