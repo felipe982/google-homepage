@@ -4,15 +4,28 @@
 
 .container {
   display: grid;
-  grid-template-rows: 33vh 33vh 33vh;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    "menu menu menu"
+    "content content content"
+    "footer footer footer";
 }
 .menu {
+  grid-area: menu;
+  background: lightblue;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  margin: 1em 1em 0 0;
-  grid-area: nav;
+}
+
+.content {
+  grid-area: content;
+  background: lightcoral;
+}
+
+.footer {
+  grid-area: footer;
+  background: lightgreen;
 }
 
 .menu a {
