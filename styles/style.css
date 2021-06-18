@@ -1,15 +1,10 @@
 * {
-  /* background: rgb(200, 0, 0, 0.3); */
   border: solid 1px;
 }
-.wrapper {
-  background: rgba(150, 0, 0, 0.2);
+
+.container {
   display: grid;
-  grid-template-rows: 4em 50em 4em;
-  grid-template-areas:
-    "nav"
-    "conteudo"
-    "footer";
+  grid-template-rows: 33vh 33vh 33vh;
 }
 .menu {
   display: flex;
@@ -27,8 +22,4 @@
 .fotoPerfil {
   border-radius: 50%;
   width: 2.5em;
-}
-
-.conteudo {
-  grid-area: conteudo;
 }
