@@ -1,7 +1,3 @@
-.wrapper {
-  display: grid;
-  grid-template-rows: 20rem 2rem 2rem;
-}
 .menu {
   display: flex;
   flex-direction: row;
