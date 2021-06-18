@@ -1,6 +1,15 @@
+* {
+  /* background: rgb(200, 0, 0, 0.3); */
+  border: solid 1px;
+}
 .wrapper {
+  background: rgba(150, 0, 0, 0.2);
   display: grid;
-  grid-template-rows: 20rem 2rem 2rem;
+  grid-template-rows: 4em 50em 4em;
+  grid-template-areas:
+    "nav"
+    "conteudo"
+    "footer";
 }
 .menu {
   display: flex;
@@ -8,6 +17,7 @@
   align-items: center;
   justify-content: flex-end;
   margin: 1em 1em 0 0;
+  grid-area: nav;
 }
 
 .menu a {
@@ -20,13 +30,5 @@
 }
 
 .conteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-footer {
-  position: absolute;
-  bottom: 1em;
+  grid-area: conteudo;
 }
