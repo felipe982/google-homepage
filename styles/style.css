@@ -1,7 +1,13 @@
 .menu {
-  padding: 2em;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 1em;
+}
+
+.menu a {
+  padding-left: 1em;
 }
 
 .fotoPerfil {
