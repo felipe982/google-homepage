@@ -1,19 +1,19 @@
+* {
+  margin: 0%;
+}
+
 .container {
+  height: 100vh;
   display: grid;
-  grid-template-rows: 0.5fr 5fr 1fr;
+  grid-template-rows: 0.4fr 6fr 0.2fr;
   grid-template-areas:
     "menu menu menu"
     "content content content"
     "footer footer footer";
-  height: 100vh;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-rows: 20rem 2rem 2rem;
 }
 
 .menu {
+  background: lightblue;
   grid-area: menu;
   display: flex;
   align-items: center;
@@ -21,6 +21,7 @@
 }
 
 .content {
+  background: lightcoral;
   grid-area: content;
   display: flex;
   flex-direction: column;
@@ -29,8 +30,12 @@
 }
 
 .footer {
-  grid-area: footer;
   background: lightgreen;
+  /* background: #f2f2f2; */
+  grid-area: footer;
+  padding: 1em;
+  display: flex;
+  align-items: center;
 }
 
 .menu a {
@@ -39,5 +44,5 @@
 
 .fotoPerfil {
   border-radius: 50%;
-  width: 2.5em;
+  width: 2em;
 }
