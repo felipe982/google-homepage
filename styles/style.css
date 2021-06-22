@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 .container {
   display: grid;
   grid-template-rows: 0.5fr 5fr 1fr;
@@ -9,7 +7,7 @@
     "footer footer footer";
   height: 100vh;
 }
->>>>>>> testcomgrid
+
 .menu {
   grid-area: menu;
   background: lightblue;
