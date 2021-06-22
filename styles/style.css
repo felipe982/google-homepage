@@ -1,28 +1,38 @@
+<<<<<<< HEAD
+=======
+.container {
+  display: grid;
+  grid-template-rows: 0.5fr 5fr 1fr;
+  grid-template-areas:
+    "menu menu menu"
+    "content content content"
+    "footer footer footer";
+  height: 100vh;
+}
+>>>>>>> testcomgrid
 .menu {
+  grid-area: menu;
+  background: lightblue;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  margin: 1em 1em 0 0;
+}
+
+.content {
+  grid-area: content;
+  background: lightcoral;
+}
+
+.footer {
+  grid-area: footer;
+  background: lightgreen;
 }
 
 .menu a {
-  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .fotoPerfil {
   border-radius: 50%;
   width: 2.5em;
-}
-
-.conteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-footer {
-  position: absolute;
-  bottom: 1em;
 }
