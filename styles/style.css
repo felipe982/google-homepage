@@ -36,6 +36,12 @@
   padding: 1em;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.footer .footeresq {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu a {
