@@ -5,15 +5,15 @@
 .container {
   height: 100vh;
   display: grid;
-  grid-template-rows: 0.4fr 6fr 0.2fr;
+  grid-template-rows: 0.4fr 3fr 3fr 0.2fr;
   grid-template-areas:
     "menu menu menu"
     "content content content"
+    ". . ."
     "footer footer footer";
 }
 
 .menu {
-  background: lightblue;
   grid-area: menu;
   display: flex;
   align-items: center;
@@ -21,7 +21,6 @@
 }
 
 .content {
-  background: lightcoral;
   grid-area: content;
   display: flex;
   flex-direction: column;
@@ -30,8 +29,8 @@
 }
 
 .footer {
-  background: lightgreen;
-  /* background: #f2f2f2; */
+  background: #f2f2f2;
+  border-top: 1px solid #dadce0;
   grid-area: footer;
   padding: 1em;
   display: flex;
@@ -39,11 +38,17 @@
   justify-content: space-between;
 }
 
-.footer .footeresq {
-  display: flex;
-  justify-content: flex-end;
+.button {
+  padding-top: 1.5em;
 }
 
+img {
+  padding-bottom: 1em;
+}
+
+input {
+  width: 30em;
+}
 .menu a {
   padding-right: 1em;
 }
