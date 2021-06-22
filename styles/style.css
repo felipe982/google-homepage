@@ -8,7 +8,11 @@
   height: 100vh;
 }
 
-.menu {
+.wrapper {
+  display: grid;
+  grid-template-rows: 20rem 2rem 2rem;
+}
+>>>>>>>parent of 567602c (Retornei ao style sem o css grid) .menu {
   grid-area: menu;
   background: lightblue;
   display: flex;
