@@ -68,6 +68,11 @@ a:hover {
   align-items: center;
 }
 
+.searchbar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
 .searchbar span {
   color: #9aa0a6;
   font-size: 23px;
@@ -90,6 +95,20 @@ a:hover {
   text-decoration: none;
 }
 
+.button input:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  cursor: pointer;
+}
+
+#teclado:hover {
+  cursor: pointer;
+}
+
+.button input:focus {
+  border: 1px solid #4285f4;
+}
 .button input {
   color: #3c4043;
   border-radius: 4px;
