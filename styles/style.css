@@ -59,24 +59,45 @@ a:hover {
 }
 
 .searchbar {
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #dfe1e5;
   border-radius: 20em;
   width: 35em;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.searchbar span {
+  color: #9aa0a6;
+  font-size: 23px;
+  padding: 5px;
 }
 
 .searchbar input {
   height: 20px;
   border: none;
   width: 90%;
-  /* outline: none; */
+  outline: none;
   font-size: 16px;
+  padding: 0 10px 0 10px;
 }
 
 .button {
+  display: flex;
   padding-top: 1.5em;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.button input {
+  color: #3c4043;
+  border-radius: 4px;
+  width: 20em;
+  font-size: 14px;
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
 }
 
 input {
