@@ -93,11 +93,12 @@ a:hover {
 .button input {
   color: #3c4043;
   border-radius: 4px;
-  width: 20em;
+  width: 10em;
   font-size: 14px;
   height: 36px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
+  margin: 4px;
 }
 
 input {
