@@ -4,6 +4,7 @@
 
 a {
   font-family: arial, sans-serif;
+  font-size: 13px;
   color: #5f6368;
   text-decoration: none;
 }
@@ -37,6 +38,10 @@ a:hover {
   justify-content: center;
 }
 
+.content img {
+  padding-bottom: 20px;
+}
+
 .footer {
   background: #f2f2f2;
   border-top: 1px solid #dadce0;
@@ -47,23 +52,26 @@ a:hover {
   justify-content: space-between;
 }
 
+.footer a {
+  font-size: 14px;
+  padding: 0 15px 0 15px;
+}
+
 .searchbar {
   padding: 10px;
   border: 1px solid #dfe1e5;
   border-radius: 20em;
+  width: 40em;
 }
 
 .searchbar input {
   height: 20px;
   border: none;
+  width: max-content;
 }
 
 .button {
   padding-top: 1.5em;
-}
-
-img {
-  padding-bottom: 1em;
 }
 
 input {
@@ -75,5 +83,5 @@ input {
 
 .fotoPerfil {
   border-radius: 50%;
-  width: 2em;
+  width: 2.5em;
 }
